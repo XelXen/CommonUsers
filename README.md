@@ -15,7 +15,7 @@ A tool to retrieve common users among telegram groups/channels/supergroups
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/telegram-group-intersect.git`
+1. Clone the repository: `git clone https://github.com/xelxen/commonusers.git`
 2. Install the requirements: `pip install -r requirements.txt`
 3. Replace the `api_id` and `api_hash` in `VarFile.py` with your actual Telegram API ID and API hash.
 
