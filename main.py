@@ -3,8 +3,9 @@ from pyrogram import Client
 from VarFile import api_id, api_hash, blacklist
 
 # Create a new Telegram Client
-with Client(name="my_account", api_id=api_id, api_hash=api_hash, in_memory=False) as app:
-    
+app = Client("my_account", api_id, api_hash)
+
+with app:
     # Get all participants from a chat
     def get_all_participants(chat):
         all_participants = []
